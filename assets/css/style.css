@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "Joyful Easter";
+    src: url("../fonts/Joyful\ Easter.ttf");
+    src: url("../fonts/Joyful-Easter.woff") format("truetype"),
+    url("../fonts/Joyful\ Easter.otf") format("opentype");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Joyful Easter", sans-serif;
+}
+
+
+body {
+    border:2px solid black;
+    width: 1116px;
+    margin: auto;
+}
+
+section {
+    background-color: grey;
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    font-size: 0.8em;
+    height: auto;
+}
+#bloc-1 {
+    color: white;
+    display: flex;
+    flex-direction: column;   
+    justify-content:space-around;
+    align-items: center;
+    padding: 47px;    
+}
+
+#bloc-1 img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    object-fit: cover;
+    border-radius : 50%;
+    cursor: zoom-in;
+    width: 150px;
+    height: 150px;    
+    box-shadow: 5px 5px 10px rgb(7, 7, 7),
+    10px 5px 5px  #dbc2a4,
+    5px 10px 5px rgb(7, 7, 7);
+}
+
+h1 {
+    font-family: "Joyful Easter" , sans-serif;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Joyful Easter", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px;
+
+}
+a:hover {
+    padding-bottom:1px;
+    border-bottom: 2px solid #dbc2a4;
+
+}
+
+#contact a {
+    color: white;
+    font-family: "Joyful Easter", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+#contact {
+    background-color: black;
+    color: white;
+    font-family: "Joyful Easter";
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.3em;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#bloc-2 h2 {
+    background-color: #dbc2a4;
+    font-family: "Joyful Easter" , sans-serif;
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+    margin-bottom: 2px;
+    width: 300px;
+    height: 30px;
+}
+
+#bloc-2 p {
+    font-family: "Joyful Easter" , sans-serif;
+    font-size: 1.2em;
+    text-align: start;
+    margin: 10px;
+}
+
+#bloc-2 {
+    font-family: "Joyful Easter" , sans-serif;
+    color:white;
+    text-indent: 40px;
+    display : flex;
+    flex-direction : column;
+    flex-wrap: wrap;
+    justify-content:left;
+    width: 35%;
+    height: 850px;
+}
+
+
+
+#bloc-3 h2 {
+    font-family: "Joyful Easter", sans-serif;
+    background-color: #dbc2a4 ;
+    color: rgb(244, 8, 8);
+    border-left: 6px solid #782221;
+    font-size: 1.5em;
+    color: black;
+    display:flex ;
+    flex-direction: column;
+    text-align:center;
+    margin: 10px;
+    width: 300px;
+    height:30px;
+
+}
+
+
+#bloc-3 {
+    background-color: white;
+    font-family: "Joyful Easter", sans-serif;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+
+
+}
+
+#bloc-3:hover{
+    background-color: white;
+    color: black;
+    border-right: 2px solid #782221;
+    font-family: "Raleway" , sans-serif;
+    font-size: 1em;
+    color: black;
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+} 
+p {
+    padding: 20px;
+    font-size: 1.2em;
+    text-align:start;
+    margin: 10px;
+
+}
+
+#bloc-4 {
+    background-color: #782221;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    height: 115px;
+
+}
+
+#bloc-4 img {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 3px 3px #2c1d27;
+}
+
